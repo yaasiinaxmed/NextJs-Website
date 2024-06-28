@@ -23,7 +23,7 @@ export default function Home() {
           </p>
           <div className="flex-col gap-5 md:flex-row hidden md:flex">
             <Link
-              href="/my-skills"
+              href="/"
               className="rounded-xl bg-gradient-to-r from-purple-500 to-cyan-500 px-5 py-3 text-lg text-white max-w-[200px] flex flex-row gap-2 items-center justify-center"
             >
               <span>Play Game</span> <AiFillFire />
