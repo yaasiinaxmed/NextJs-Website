@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { AiFillFire } from "react-icons/ai";
 
 export default function Home() {
   return (
@@ -23,25 +24,9 @@ export default function Home() {
           <div className="flex-col gap-5 md:flex-row hidden md:flex">
             <Link
               href="/my-skills"
-              className="rounded-[20px] bg-blue-500 hover:bg-blue-400 px-5 py-3 text-lg text-white max-w-[200px]"
+              className="rounded-xl bg-gradient-to-r from-purple-500 to-cyan-500 px-5 py-3 text-lg text-white max-w-[200px] flex flex-row gap-2 items-center justify-center"
             >
-              Learn More
-            </Link>
-
-            <Link
-              href="/my-projects"
-              className="rounded-[20px] bg-blue-500 group hover:bg-blue-400 px-5 py-3 text-lg text-white max-w-[200px]"
-            >
-              <div className="absolute rounded-[20px] bg-white z-[1] inset-0 opacity-0 group-hover:opacity-20"></div>
-              My Projects
-            </Link>
-
-            <Link
-              href="/contact"
-              className="rounded-[20px] bg-blue-500 group hover:bg-blue-400 px-5 py-3 text-lg text-white max-w-[200px]"
-            >
-              <div className="absolute rounded-[20px] bg-white z-[1] inset-0 opacity-0 group-hover:opacity-20"></div>
-              Contact Me
+              <span>Play Game</span> <AiFillFire />
             </Link>
           </div>
         </div>
